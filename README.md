@@ -24,3 +24,7 @@ sudo python /home/pi/scripts/temp.py &
 * Import the grow.sql database to your sql server, don't forget add a user with priveleges to use this database.
 
 * Edit the database login details in scripts/moist.py, scripts/temp.py and html/ajax.php accordingly.
+
+Sensors used:
+temperature sensor DS18B20 (don't forget a 4.7KOhm resistor)
+soil moisture sensor FC-28

@@ -12,9 +12,9 @@ Screenshot: https://i.redd.it/ysn2knerejq21.png
 My setup: https://i.imgur.com/Vaa0UkG.jpg
 
 ## Installation
-* Clone html to your /var/www/html/whatever folder.
+* Clone the html folder to your /var/www/html/whatever folder.
 
-* Clone scripts to preferably /home/pi and make sure they're executable.
+* Clone the scripts folder to preferably /home/pi/scripts and make sure they're executable.
 
 * To make the scripts autorun on boot you can add these lines to the bottom of /etc/profile:
 

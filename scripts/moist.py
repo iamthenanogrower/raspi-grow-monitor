@@ -10,10 +10,10 @@ import time
 import datetime
 import pymysql
 
-#gpio-pin for the moisture sensor, change accordingly
+# gpio-pin for the moisture sensor, change accordingly
 moistpin = 21
 
-#db-details
+# database details, edit this accordingly
 db = pymysql.connect(host='localhost',
                      user='your_username',
                      passwd='your_password',

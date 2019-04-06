@@ -1,4 +1,4 @@
-## raspi-grow-monitor
+# raspi-grow-monitor
 This is a very simple indoor grow monitor for Raspberry Pi.
 
 It collects data with python-scripts talking to sensors and pushing it to mysql.

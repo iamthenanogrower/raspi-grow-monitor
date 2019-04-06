@@ -1,7 +1,4 @@
 # raspi-grow-monitor
-
-<snippet>
-  <content><![CDATA[
 # ${1:Project Name}
 This is a very simple indoor grow monitor for Raspberry Pi.
 
@@ -34,7 +31,3 @@ When installed properly, access index.php in your browser.
 ## Sensors used
 temperature sensor DS18B20 (don't forget a 4.7KOhm resistor)
 soil moisture sensor FC-28
-
-]]></content>
-  <tabTrigger>readme</tabTrigger>
-</snippet>

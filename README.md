@@ -9,7 +9,7 @@ If you are a rookie to mysql I highly recommend installing phpmyadmin.
 
 Screenshot: https://i.redd.it/ysn2knerejq21.png
 
-My setup: https://i.imgur.com/Vaa0UkG.jpg
+My setup: https://i.imgur.com/FnV2sxv.jpg
 
 ## Installation
 * Clone the html folder to your /var/www/html/whatever folder.

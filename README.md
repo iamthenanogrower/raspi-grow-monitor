@@ -15,9 +15,9 @@ Install notes:
 
 * To make the scripts autorun on boot you can add these lines to the bottom of /etc/profile:
 
-sudo python /home/pi/scripts/moist.py &
+`sudo python /home/pi/scripts/moist.py &
 
-sudo python /home/pi/scripts/temp.py &
+sudo python /home/pi/scripts/temp.py &`
 
 * Connect temperature sensor to GPIO pin #4 and soil moisture sensor to GPIO pin #21.
 

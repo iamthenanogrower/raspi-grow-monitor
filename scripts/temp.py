@@ -10,7 +10,7 @@ import glob
 import time
 import pymysql
 
-# enter the db
+# database details, edit this accordingly
 db = pymysql.connect(host='localhost',
                      user='your_username',
                      passwd='your_password',

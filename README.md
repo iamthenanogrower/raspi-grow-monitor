@@ -30,7 +30,7 @@ sudo python /home/pi/scripts/temp.py &
 * Edit the database login details in scripts/moist.py, scripts/temp.py and html/ajax.php accordingly.
 
 ## Usage
-When installed properly, access index.php in your browser.
+When installed properly, access host/index.php in your web browser.
 
 ## Sensors used
 temperature sensor DS18B20 (don't forget a 4.7KOhm resistor)

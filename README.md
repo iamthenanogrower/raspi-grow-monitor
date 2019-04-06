@@ -18,7 +18,7 @@ sudo python /home/pi/scripts/moist.py &
 sudo python /home/pi/scripts/temp.py &
 ```
 
-* Connect temperature sensor to GPIO pin #4 and soil moisture sensor to GPIO pin #21.
+* Connect temperature sensor to GPIO pin #4 and soil moisture sensor (DO) to GPIO pin #21.
 
 * Import the grow.sql database to your sql server, don't forget add a user with priveleges to use this database.
 

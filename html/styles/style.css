@@ -1,0 +1,47 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+body {
+  margin: 0;
+  font-family: Montserrat, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  background-image: url("../cutie.jpg");
+  background-color: #eee;
+  background-position: center top; 
+  background-size: auto 165%;
+  min-height: 100vh;
+  overflow: auto;
+}
+
+h1 {
+  font-weight: normal;
+  font-size: 170px;
+  letter-spacing: -1px;
+  color: #9900cc;
+  margin-top: 0;
+  margin-bottom: -50;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: black;
+}
+
+h2 {
+  font-weight: normal;
+  font-size: 65px;
+  letter-spacing: -1px;
+  color: #9900cc;
+  margin-top: 0;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+
+.divtl {
+  position: fixed;
+  margin: auto;
+  width: 900px;
+  top: 3%;
+  text-align: center;
+  left: 50%;
+  transform: translate(-50%, 0);
+}

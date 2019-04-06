@@ -6,6 +6,10 @@ You can then monitor this data in real-time through php/ajax on a web browser.
 
 Make sure you are running something like apache2, php and mysql on your raspi.
 If you are a rookie to mysql I highly recommend installing phpmyadmin.
+
+Screenshot: https://i.redd.it/ysn2knerejq21.png
+My setup: https://i.imgur.com/Vaa0UkG.jpg
+
 ## Installation
 * Clone html to your /var/www/html/whatever folder.
 

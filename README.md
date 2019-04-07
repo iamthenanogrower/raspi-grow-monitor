@@ -8,12 +8,6 @@ Make sure you are running something like apache2, php and mysql on your raspi.
 
 If you are a rookie to mysql I highly recommend installing phpmyadmin.
 
-Pictures:
-
-[Screenshot](https://i.redd.it/ysn2knerejq21.png)
-
-[My setup](https://i.imgur.com/FnV2sxv.jpg)
-
 ## Installation
 * [Make sure you have a webserver running on your pi](https://howtoraspberrypi.com/how-to-install-web-server-raspberry-pi-lamp/)
 
@@ -43,3 +37,8 @@ When installed properly, access host/index.php in your web browser.
 * Raspberry Pi 3 #B + 8GB micro sd (with raspbian)
 * Temperature sensor DS18B20 (don't forget a 4.7KOhm resistor)
 * Soil moisture sensor FC-28
+
+## Pictures
+[Screenshot](https://i.redd.it/ysn2knerejq21.png)
+
+[My setup](https://i.imgur.com/FnV2sxv.jpg)

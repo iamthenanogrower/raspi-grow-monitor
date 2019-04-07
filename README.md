@@ -12,6 +12,10 @@ Screenshot: https://i.redd.it/ysn2knerejq21.png
 My setup: https://i.imgur.com/FnV2sxv.jpg
 
 ## Installation
+* [Make sure you have a webserver running on your pi](https://howtoraspberrypi.com/how-to-install-web-server-raspberry-pi-lamp/)
+
+* [Turn on GPIO/1-wire and make sure you can read the temperature sensor](https://learn.adafruit.com/adafruits-raspberry-pi-lesson-11-ds18b20-temperature-sensing/ds18b20)
+
 * Clone the html folder to your /var/www/html/whatever folder.
 
 * Clone the scripts folder to preferably /home/pi/scripts and make sure they're executable.

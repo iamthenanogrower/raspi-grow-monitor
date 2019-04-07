@@ -13,12 +13,16 @@ If you are a rookie to mysql I highly recommend installing phpmyadmin.
 
 * [Turn on GPIO/1-wire and make sure you can read the temperature sensor](https://learn.adafruit.com/adafruits-raspberry-pi-lesson-11-ds18b20-temperature-sensing/ds18b20)
 
+* Install the pymysql library for Python:
+```
+sudo apt-get install python-pymysql
+```
+
 * Clone the html folder to your /var/www/html/whatever folder.
 
 * Clone the scripts folder to preferably /home/pi/scripts and make sure they're executable.
 
 * To make the scripts autorun on boot, type crontab -e and add these lines to the bottom:
-
 ```
 @reboot sudo python /home/pi/scripts/moist.py
 @reboot sudo python /home/pi/scripts/temp.py

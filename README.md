@@ -5,6 +5,7 @@ It collects data with python-scripts talking to sensors and pushing it to mysql.
 You can then monitor this data in real-time through php/ajax on a web browser.
 
 Make sure you are running something like apache2, php and mysql on your raspi.
+
 If you are a rookie to mysql I highly recommend installing phpmyadmin.
 
 Screenshot: https://i.redd.it/ysn2knerejq21.png

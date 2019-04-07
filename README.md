@@ -22,10 +22,10 @@ sudo apt-get install python-pymysql
 
 * Clone the scripts folder to preferably /home/pi/scripts and make sure they're executable.
 
-* To make the scripts autorun on boot, type crontab -e and add these lines to the bottom:
+* To make the scripts autorun on boot, edit /etc/profile and add these lines to the bottom:
 ```
-@reboot sudo python /home/pi/scripts/moist.py
-@reboot sudo python /home/pi/scripts/temp.py
+sudo python /home/pi/scripts/moist.py
+sudo python /home/pi/scripts/temp.py
 ```
 
 * Connect temperature sensor to GPIO pin #4 and soil moisture sensor (DO) to GPIO pin #21.

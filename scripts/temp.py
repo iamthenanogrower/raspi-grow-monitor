@@ -51,5 +51,4 @@ while True:
         temp_c = str(read_temp())
 	query = 'UPDATE devices SET value=' + temp_c + ' WHERE device="temp1"'
 	cur.execute(query)
-
-time.sleep(2)
+	time.sleep(3)

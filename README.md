@@ -4,12 +4,12 @@ This is a very simple indoor grow monitor for Raspberry Pi.
 It collects data with python-scripts talking to sensors and pushing it to mysql.
 You can then monitor this data in real-time through php/ajax on a web browser.
 
-Make sure you are running something like apache2, php and mysql on your raspi.
+[Make sure you are running something like apache2, php and mysql on your raspi.](https://howtoraspberrypi.com/how-to-install-web-server-raspberry-pi-lamp/)
 
 If you are a rookie to mysql I highly recommend installing phpmyadmin.
 
 ## Installation
-* [Make sure you have a webserver running on your pi](https://howtoraspberrypi.com/how-to-install-web-server-raspberry-pi-lamp/)
+* Connect temperature sensor to GPIO pin #4 and soil moisture sensor (DO) to GPIO pin #21.
 
 * [Turn on GPIO/1-wire and make sure you can read the temperature sensor](https://learn.adafruit.com/adafruits-raspberry-pi-lesson-11-ds18b20-temperature-sensing/ds18b20)
 
@@ -27,8 +27,6 @@ sudo apt-get install python-pymysql
 sudo python /home/pi/scripts/moist.py
 sudo python /home/pi/scripts/temp.py
 ```
-
-* Connect temperature sensor to GPIO pin #4 and soil moisture sensor (DO) to GPIO pin #21.
 
 * Import the rasp-grow-monitor.sql database to your sql server, don't forget add a user with priveleges to use this database.
 

@@ -1,4 +1,3 @@
-# Mumma mumma
 # raspi-grow-monitor
 This is a very simple indoor grow monitor for Raspberry Pi.
 

@@ -46,4 +46,3 @@ When installed properly, access host/index.php in your web browser.
 
 [My setup](https://i.imgur.com/FnV2sxv.jpg)
 
-lol test

@@ -1,4 +1,6 @@
-# Mumma mumma
+# new-dawn branch
+Gonna try some cool stuff here.
+
 # raspi-grow-monitor
 This is a very simple indoor grow monitor for Raspberry Pi.
 
